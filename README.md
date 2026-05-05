@@ -6,7 +6,25 @@ This project performs in silico screening of phytochemicals using machine learni
 
 Workflow
 
-[Workflow](06_pipeline/workflow.png)
+Literature Collection (349 compounds)
+↓
+SMILES Retrieval
+↓
+STITCH (Compound–Protein Interaction)
+↓
+Toxicity Analysis (ProTox-II)
+↓
+ADME Analysis (SwissADME)
+↓
+ML Clustering (KNIME)
+↓
+PPI Network (STRING)
+↓
+Network Analysis (Cytoscape)
+↓
+Target Selection (TP53, TNF, IL6, CTNNB1)
+↓
+Molecular Docking (PyRx)
 
 Key Results
 
